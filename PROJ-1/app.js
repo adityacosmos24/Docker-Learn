@@ -1,6 +1,6 @@
 const express=require('express');
 const app=express();
-require('dotenv').config();
+require('dotenv').config({override:false});
 
 const PORT=process.env.PORT || 4000;
 
